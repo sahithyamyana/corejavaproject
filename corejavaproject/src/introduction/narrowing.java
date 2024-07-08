@@ -1,4 +1,4 @@
-package introduction;
+package com.siiet.introduction;
 
 public class narrowing {
 	public static void main(String[] args) {
