@@ -1,7 +1,9 @@
 package com.siiet.interfacedemo;
 
-public class Bank {
-
-	float rateofinterest();
+public interface Bank {
+    public default float rateofinterest() {
+		return 9.25f;
+		
+	}
 	
 }

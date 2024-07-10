@@ -1,9 +1,11 @@
 package com.siiet.overriding;
-//overriding
-public class RBI {
+
+public class SBI extends RBI {
+
+	@Override
 	
 	public float getrateofinterest() {
-		return 6.7f;
+		return 8.7f;
+		
 	}
-
 }

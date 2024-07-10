@@ -1,12 +1,15 @@
 package com.siiet.finaldemo;
+//demo for final
 
 public class Finaldemo {
 	
-	final int x=8;
+	int x=8;
 	
-	static final int y;
+	static int y;
 	
-	final void change() {
+	//final
+	
+	void change() {
 		System.out.println("default");
 	
 	}
@@ -15,6 +18,4 @@ public class Finaldemo {
 		y=7;
 		
 	}
-	
-
 }

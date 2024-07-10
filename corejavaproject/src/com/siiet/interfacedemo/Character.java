@@ -1,5 +1,5 @@
 package com.siiet.interfacedemo;
-//multi
+//multiple inheritance
 public interface Character {
 	void attack();
 
