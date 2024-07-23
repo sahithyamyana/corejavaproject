@@ -5,7 +5,8 @@ public static void main(String[] args) {
 	Throwsdemo d=new Throwsdemo();
 	try {
 		System.out.println("hello");
-	}
 	
+	
+  }
 }
 }
